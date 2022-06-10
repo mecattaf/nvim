@@ -11,7 +11,8 @@ distrobox-enter neovim
 cd ~
 mkdir .config
 cd .config
-sudo apk add git neovim
+sudo apk add git 
+sudo apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing neovim
 git clone https://github.com/mecattaf/nvim.git
 nvim +PackerSync
 ```
