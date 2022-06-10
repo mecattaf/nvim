@@ -2,7 +2,7 @@
 
 ### Test drive 
 If you have distrobox installed:
-'''
+```
 mkdir ~/.distrobox/neovim
 distrobox-create --image docker.io/library/alpine:latest --name neovim --home ~/.distrobox/neovim/
 mkdir ~/.distrobox/neovim/.config
@@ -14,7 +14,7 @@ cd .config
 sudo apk add git neovim
 git clone https://github.com/mecattaf/nvim.git
 nvim +PackerSync
-'''
+```
 
 ### Plugins
 
